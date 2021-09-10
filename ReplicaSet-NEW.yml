@@ -6,10 +6,10 @@ metadata:
     name: myapp
     type: front-end
 spec:
-  replicas: 3
   selector:
     matchLabels:
       type: front-end
+  replicas: 3
   template:
     metadata:
       name: myapp-pod
